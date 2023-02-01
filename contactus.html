@@ -4,29 +4,32 @@
         <title> Contact Us </title>
     </head>
     <body>
-        <table>
-            <tbody>
-                <tr>
-                    <td> <lable>  Full Name </lable> </td>
-                    <td> <input type="text" maxlength="40" autofocus> </td>
-                </tr>
-                <tr>
-                <td> <label> Mobile Number </label></td>
-                <td> <input type="number" maxlength="40"> </td>
-                </tr>
-                <tr>
-                    <td> <label> Email </label> </td>
-                    <td> <input type="email"></td>
-                </tr>
-                <tr>
-                    <td> <label> Enquiry </label></td>
-                    <td> <textarea rows="10" cols="70"></td>
-                </tr>
-                <tr>
-                    <td> <button> <label> Submit </label></button></td>
-                    <td> <button> <label> Clear </label></button></td>
-                </tr>
-            </tbody>
-        </table>
+        <h2> Contact Us </h2>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td> <lable>  Full Name </lable> </td>
+                        <td> <input type="text" maxlength="40" autofocus required placeholder="Maximum character length 40"> </td>
+                    </tr>
+                    <tr>
+                       <td> <label> Mobile Number </label></td>
+                       <td> <input type="number" > </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Email </label> </td>
+                        <td> <input type="email" required placeholder="Ex.abc@gmail.com"> </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Enquiry </label> </td>
+                        <td> <textarea rows="5" cols="40"> </textarea></td>
+                    </tr>
+                    <tr>
+                        <td> <button type="submit"> Submit </button> </td>
+                        <td> <button type="reset"> Clear </button> </td>
+                    </tr>
+                </tbody>
+           </table>
+        </form>
     </body>
 </html>
